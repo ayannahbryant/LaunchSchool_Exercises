@@ -1,0 +1,6 @@
+services:
+  launchschoolexercises:
+    image: launchschoolexercises
+    build:
+      context: .
+      dockerfile: ./Dockerfile
