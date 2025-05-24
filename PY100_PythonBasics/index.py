@@ -1,8 +1,10 @@
 #Allows for resuable code for any set of list
+def find_item_index(items_list,target_item):
+    try:
+        return items_list.index(target_item)
+    except ValueError:
+        return "Item not found"
 
-def access_fruit(x,y):
-    fruit_index = x.index(y)
-    return print(fruit_index)
+fruits = ['apple', 'banana', 'cherry', 'peach', 'watermelon']
 
-fruits = ["apple", "banana", "cherry", "peach", "watermelon"]
-access_fruit(fruits,'cherry')
+print(find_item_index(fruits,'I love you'))
