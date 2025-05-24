@@ -7,4 +7,4 @@ Width must be greater than the length of the string
 '''
 
 string = 'Align to the right!'
-print(string.rjust(10,'_'))
+print(string.rjust(25,'_'))
