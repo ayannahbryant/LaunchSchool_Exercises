@@ -10,5 +10,5 @@
 #Solve 9 / 10 = 0.9 (20 + 0.9)
 #Solve 20 + 0.9 = 20.9
 
-equation_result = 4 * 5 + 3**2 / 10
+equation_result = (4 * 5) + ((3**2) / 10)
 print(equation_result)
